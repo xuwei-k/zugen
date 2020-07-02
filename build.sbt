@@ -19,10 +19,10 @@ lazy val root = (project in file("."))
       "-Ywarn-unused"
     ),
     libraryDependencies ++= Seq(
-      "org.scalameta" %% "scalameta" % "4.3.17",
+      "org.scalameta" %% "scalameta" % "4.3.18",
       "com.github.bigwheel" %% "util-backports" % "2.1",
       "org.scalatest" %% "scalatest" % "3.2.0" % Test,
-      "org.scalacheck" %% "scalacheck" % "1.14.1" % Test
+      "org.scalacheck" %% "scalacheck" % "1.14.3" % Test
     ),
     TwirlKeys.templateImports := Seq.empty
   )
